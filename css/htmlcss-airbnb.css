@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#rome{
+  background-image: url("https://img2.meteo.it/bin/90.$plit/C_109_meteoCitta_4_upiFoto.jpg");
+}
+
+#naples{
+  background-image: url("http://www.poli-listaperta.it/wp-content/uploads/2019/09/Panorama-di-Napoli-Gettyimages.jpg");
+}
+
+#milan{
+  background-image: url("http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg");
+}
+
+.container{
+  margin: auto;
+  width: 450px;
+}
+.city{
+  width: 450px;
+  height: 300px;
+  color: white;
+  border: 1px solid black;
+  position: relative;
+  background-size: cover;
+}
+
+.city_name{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 25px;
+}
